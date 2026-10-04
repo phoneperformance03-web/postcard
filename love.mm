@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Question For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="step-tag">Level(1/2 ✨</div>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3h2MjJ3Y2p3M2R6NWdxNzV2ZzM0ZndxeHJ1YnVvOXE0Yzhwb3Z2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L3X9GvkiGBYMA/giphy.gif" alt="Panda" class="panda-img">
+        <h2 id="question">ပြန်တွဲရအောင်မမအရမ်းလွမ်းနေပြီးမေ့မရလို့ပါ🥺</h2>
+        <div class="btn-group">
+            <button id="yesBtn" onclick="nextStep()">YES 💕😘</button>
+            <button id="noBtn" onmouseover="moveButton()">NO 💔😭</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
